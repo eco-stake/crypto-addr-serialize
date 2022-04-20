@@ -3,12 +3,12 @@
   "version": "0.1.5",
   "description": "Light weight package for serializing different crypto addresses",
   "source": "lib/index.js",
-  "main": "./dist/index.umd.js", // legacy UMD output (for Node & CDN use)
-	"module": "./dist/index.module.js", // legacy ES Modules output (for bundlers)
-	"exports": "./dist/index.modern.js", // modern ES2017 output
-	"scripts": {
-		"build": "microbundle"
-	}
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.module.js",
+  "exports": "./dist/index.modern.js",
+  "scripts": {
+    "build": "microbundle"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "microbundle",
